@@ -36,18 +36,8 @@ export default function About() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-start">
-          {/* Left side - Avatar & achievements */}
+          {/* Left side - Achievements */}
           <div className="flex flex-col items-center md:items-start space-y-6">
-            <div className="relative">
-              <div className="w-48 h-48 rounded-2xl overflow-hidden gradient-border glow">
-                <img
-                  src="https://avatars.githubusercontent.com/u/180048545?v=4"
-                  alt="Shaurya Kumar"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
-
             <div className="w-full space-y-3">
               <h3 className="text-sm font-semibold uppercase tracking-wider text-white/80 text-center md:text-left">
                 Achievements
