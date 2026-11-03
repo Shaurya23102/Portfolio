@@ -41,28 +41,29 @@ export default function About() {
           {/* Right side - Bio */}
           <div className="space-y-6">
             <p className="text-lg text-[var(--color-muted)] leading-relaxed">
-              I&apos;m a passionate <span className="text-white font-medium">AI/ML enthusiast</span> and{" "}
-              <span className="text-white font-medium">full-stack developer</span> currently
-              pursuing my B.Tech at IIIT Naya Raipur. I love building systems
-              that sit at the intersection of artificial intelligence and
-              practical software engineering.
+              I&apos;m an <span className="text-white font-medium">AI engineer</span> focused on{" "}
+              <span className="text-white font-medium">generative AI</span> and agentic
+              systems, currently pursuing my B.Tech at IIIT Naya Raipur. I build
+              production-grade LLM applications, from RAG pipelines to tool-using
+              agents, and ship them like real software.
             </p>
             <p className="text-lg text-[var(--color-muted)] leading-relaxed">
-              My work spans from developing{" "}
+              My work spans{" "}
               <span className="text-white font-medium">
-                multi-agent AI systems
+                multi-agent systems with LangGraph and MCP
               </span>{" "}
-              for cloud compliance and insurance processing, to fine-tuning
-              vision models for educational grading and building{" "}
+              for cloud compliance and insurance claims, plus LoRA fine-tuning of
+              vision models for educational grading, backed by{" "}
               <span className="text-white font-medium">
-                geospatial crop identification
+                PostgreSQL, Redis and vector databases
               </span>{" "}
-              pipelines using satellite imagery.
+              for state, caching and retrieval.
             </p>
             <p className="text-lg text-[var(--color-muted)] leading-relaxed">
-              I thrive on solving real-world problems with code and AI — whether
-              it&apos;s automating Azure policy checks, intelligently processing
-              insurance claims, or mapping crop areas from space.
+              I care about what happens after the notebook: tracing and evaluating
+              agents with <span className="text-white font-medium">LangSmith</span>,
+              serving with FastAPI, containerizing with Docker, deploying on Azure, and
+              automating releases with CI/CD so AI systems are reliable and observable.
             </p>
           </div>
         </div>
