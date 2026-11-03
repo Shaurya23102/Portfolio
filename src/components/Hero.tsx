@@ -35,10 +35,10 @@ export default function Hero() {
         </p>
 
         <p className="text-base md:text-lg text-[var(--color-muted)]/70 mb-10 max-w-2xl mx-auto">
-          4th year student at{" "}
+          Final-year{" "}
           <span className="text-white font-medium">IIIT Naya Raipur</span>{" "}
-          building intelligent systems — from cloud compliance agents to
-          computer vision pipelines.
+          student turning LLMs into reliable products: RAG, agents, fine-tuning
+          and observability, deployed end to end.
         </p>
 
         <div className="flex flex-wrap justify-center gap-4">
