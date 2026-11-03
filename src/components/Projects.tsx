@@ -3,7 +3,7 @@ const projects = [
     title: "Compliance Azure",
     description:
       "A multi-agent AI system for automated Azure cloud compliance auditing. Uses AI agents to scan Azure resources, evaluate them against security policies, generate detailed compliance reports, and suggest remediation steps — streamlining cloud governance workflows.",
-    tags: ["Azure", "AI Agents", "Cloud Security", "Compliance", "Python"],
+    tags: ["LangGraph", "LangSmith", "FastAPI", "Azure", "Azure Video Indexer", "Azure AI Search"],
     github: "https://github.com/Shaurya23102/compliance_azure",
     gradient: "from-blue-500 to-indigo-600",
     icon: "🛡️",
@@ -12,7 +12,7 @@ const projects = [
     title: "Insurance Claim Agent",
     description:
       "An AI-powered insurance claim processing agent that automates the end-to-end claim lifecycle. Leverages LLM-based reasoning to extract information from claim documents, validate policy terms, assess damage, and produce structured claim decisions with explanations.",
-    tags: ["LLM", "AI Agent", "NLP", "Insurance", "Automation"],
+    tags: ["RAG", "LangChain", "Fine-tuning", "Hugging Face", "HNSW", "Redis", "Semantic Caching", "FastAPI", "Docker"],
     github: "https://github.com/Shaurya23102/Insurance_claim_agent",
     gradient: "from-emerald-500 to-teal-600",
     icon: "📋",
@@ -21,13 +21,7 @@ const projects = [
     title: "Grading Handwritten Notes",
     description:
       "A fine-tuned vision model that grades handwritten student notes automatically. Uses transfer learning and fine-tuning techniques on vision transformers to understand handwriting quality, content accuracy, and organization, providing objective and consistent grading at scale.",
-    tags: [
-      "Computer Vision",
-      "Fine-tuning",
-      "Deep Learning",
-      "Education",
-      "PyTorch",
-    ],
+    tags: ["Python", "Qwen2.5-7B-Instruct", "LoRA", "LLM Finetuning", "PRM", "SymPy", "OpenCV", "Tesseract"],
     github:
       "https://github.com/Shaurya23102/Grading_Handwritten_Notes_Using_Fine-tuning",
     gradient: "from-orange-500 to-amber-600",
@@ -37,13 +31,7 @@ const projects = [
     title: "Crop Identification & Area Mapping",
     description:
       "A geospatial AI pipeline for crop identification and area estimation using satellite imagery. Applies remote sensing techniques and machine learning classifiers to map agricultural land use, identify crop types, and calculate cultivation areas for agricultural planning.",
-    tags: [
-      "Remote Sensing",
-      "GIS",
-      "Machine Learning",
-      "Satellite Imagery",
-      "Agriculture",
-    ],
+    tags: ["ResNet-18", "SIFT", "Gated Fusion", "MobileSAM"],
     github:
       "https://github.com/Shaurya23102/Crop-Identification-and-area-mapping",
     gradient: "from-green-500 to-lime-600",
