@@ -35,7 +35,7 @@ export default function Hero() {
         </p>
 
         <p className="text-base md:text-lg text-[var(--color-muted)]/70 mb-10 max-w-2xl mx-auto">
-          3rd year student at{" "}
+          4th year student at{" "}
           <span className="text-white font-medium">IIIT Naya Raipur</span>{" "}
           building intelligent systems — from cloud compliance agents to
           computer vision pipelines.
