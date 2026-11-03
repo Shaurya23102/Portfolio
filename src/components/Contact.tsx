@@ -56,7 +56,7 @@ export default function Contact() {
             </svg>
             <div className="text-left">
               <p className="text-sm text-[var(--color-muted)]">Email</p>
-              <p className="text-white font-medium">shaurya23102@iiitnr.edu.in</p>
+              <p className="text-white font-medium">shauryakumar1122@gmail.com</p>
             </div>
           </a>
         </div>
