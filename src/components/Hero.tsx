@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 
 export default function Hero() {
@@ -91,10 +92,13 @@ export default function Hero() {
               <div className="text-center md:text-left">
                 <div className="text-xl sm:text-2xl font-bold text-white font-mono">31+</div>
                 <div className="text-xs text-slate-400">GitHub Repos</div>
+              </div>
+
               <div className="text-center md:text-left">
                 <div className="text-xl sm:text-2xl font-bold text-green-400 font-mono">400+</div>
                 <div className="text-xs text-slate-400">GitHub Contributions</div>
               </div>
+
               <div className="text-center md:text-left">
                 <div className="text-xl sm:text-2xl font-bold text-cyan-400 font-mono">4th Year</div>
                 <div className="text-xs text-slate-400">B.Tech IIITNR</div>
